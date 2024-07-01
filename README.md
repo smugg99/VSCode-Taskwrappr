@@ -43,20 +43,12 @@ To contribute to the development of this extension:
 
 ## Issues
 
-If you encounter any issues or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/smugg99/taskwrappr/issues).
+If you encounter any issues or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/smugg99/vscode-taskwrappr/issues).
 
 ## License
 
 This extension is licensed under the MIT License. See the [LICENSE](https://github.com/smugg99/taskwrappr/blob/main/LICENSE) file for more details.
 
-## Contributing
-
-We welcome contributions from the community. Please read the [contributing guidelines](https://github.com/smugg99/taskwrappr/blob/main/CONTRIBUTING.md) before submitting a pull request.
-
-## Repository
-
-The source code for this extension can be found on GitHub: [Taskwrappr GitHub Repository](https://github.com/smugg99/taskwrappr).
-
 ---
 
-Thank you for using Taskwrappr! If you find this extension helpful, please consider giving it a star on GitHub and leaving a review in the Visual Studio Code Marketplace.
+Thank you for using VSCode-Taskwrappr! If you find this extension helpful, please consider giving it a star on GitHub and leaving a review in the Visual Studio Code Marketplace.
