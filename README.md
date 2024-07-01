@@ -1,0 +1,62 @@
+# Taskwrappr
+
+Taskwrappr is a versatile scripting language support extension for Visual Studio Code. It provides syntax highlighting, code snippets, and language support for the Taskwrappr scripting language.
+
+## Features
+
+- **Syntax Highlighting**: Enhances readability by applying different colors to keywords, operators, literals, variables, and custom functions.
+- **Code Snippets**: Speeds up coding with handy snippets for common Taskwrappr patterns.
+- **Language Support**: Offers a robust foundation for writing and maintaining Taskwrappr scripts.
+
+
+
+## Installation
+
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
+3. Search for `Taskwrappr`.
+4. Click `Install`.
+
+Alternatively, you can install the extension by downloading it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode).
+
+## Usage
+
+1. Open a file with the `.tw` extension.
+2. Enjoy enhanced syntax highlighting and code snippets specifically designed for Taskwrappr.
+
+## Development
+
+To contribute to the development of this extension:
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/smugg99/taskwrappr.git
+    ```
+
+2. Open the cloned repository in Visual Studio Code.
+3. Run the extension in development mode by pressing `F5`.
+
+<p align="center">
+  <img src="static/highlighting_preview.png" alt="Syntax Highlighting Preview" width="400">
+</p>
+
+## Issues
+
+If you encounter any issues or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/smugg99/taskwrappr/issues).
+
+## License
+
+This extension is licensed under the MIT License. See the [LICENSE](https://github.com/smugg99/taskwrappr/blob/main/LICENSE) file for more details.
+
+## Contributing
+
+We welcome contributions from the community. Please read the [contributing guidelines](https://github.com/smugg99/taskwrappr/blob/main/CONTRIBUTING.md) before submitting a pull request.
+
+## Repository
+
+The source code for this extension can be found on GitHub: [Taskwrappr GitHub Repository](https://github.com/smugg99/taskwrappr).
+
+---
+
+Thank you for using Taskwrappr! If you find this extension helpful, please consider giving it a star on GitHub and leaving a review in the Visual Studio Code Marketplace.

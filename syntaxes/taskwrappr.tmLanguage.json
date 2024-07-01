@@ -1,0 +1,48 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "taskwrappr",
+    "scopeName": "source.taskwrappr",
+    "patterns": [
+        {
+            "match": "\\b(print|if|else)\\b",
+            "name": "keyword.control.taskwrappr"
+        },
+        {
+            "match": "\\b(not|and|or|xor|nand)\\b",
+            "name": "keyword.operator.taskwrappr"
+        },
+        {
+            "match": "\\b(true|false)\\b",
+            "name": "constant.language.boolean.taskwrappr"
+        },
+        {
+            "match": "\"(?:[^\"\\\\]|\\\\.)*\"",
+            "name": "string.quoted.double.taskwrappr"
+        },
+        {
+            "match": "\\b-?\\d+(\\.\\d+)?\\b",
+            "name": "constant.numeric.taskwrappr"
+        },
+        {
+            "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
+            "name": "variable.other.taskwrappr"
+        },
+        {
+            "begin": "#",
+            "end": "$",
+            "name": "comment.line.taskwrappr"
+        },
+        {
+            "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+            "captures": {
+                "1": {
+                    "name": "entity.name.function.taskwrappr"
+                }
+            }
+        }
+    ],
+    "repository": {},
+    "fileTypes": [
+        "tw"
+    ]
+}

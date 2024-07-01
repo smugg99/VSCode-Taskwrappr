@@ -1,0 +1,29 @@
+{
+  "name": "taskwrappr",
+  "displayName": "Taskwrappr",
+  "description": "Taskwrappr is a versatile scripting language support extension for Visual Studio Code. It provides syntax highlighting, code snippets, and language support.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smugg99/vscode-taskwrappr"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "taskwrappr",
+      "aliases": ["Taskwrappr", "taskwrappr"],
+      "extensions": [".tw"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "taskwrappr",
+      "scopeName": "source.taskwrappr",
+      "path": "./syntaxes/taskwrappr.tmLanguage.json"
+    }]
+  }
+}
