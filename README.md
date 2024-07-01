@@ -8,8 +8,6 @@ Taskwrappr is a versatile scripting language support extension for Visual Studio
 - **Code Snippets**: Speeds up coding with handy snippets for common Taskwrappr patterns.
 - **Language Support**: Offers a robust foundation for writing and maintaining Taskwrappr scripts.
 
-
-
 ## Installation
 
 1. Open Visual Studio Code.
