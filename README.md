@@ -1,12 +1,14 @@
-# Taskwrappr
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD041 -->
 
-Taskwrappr is a versatile scripting language support extension for Visual Studio Code. It provides syntax highlighting, code snippets, and language support for the Taskwrappr scripting language.
+# VSCode-Taskwrappr
+
+VSCode-Taskwrappr is a versatile Taskwrapper scripting language support extension for Visual Studio Code. It provides syntax highlighting and code snippets for the language.
 
 ## Features
 
 - **Syntax Highlighting**: Enhances readability by applying different colors to keywords, operators, literals, variables, and custom functions.
 - **Code Snippets**: Speeds up coding with handy snippets for common Taskwrappr patterns.
-- **Language Support**: Offers a robust foundation for writing and maintaining Taskwrappr scripts.
 
 ## Installation
 
@@ -36,7 +38,7 @@ To contribute to the development of this extension:
 3. Run the extension in development mode by pressing `F5`.
 
 <p align="center">
-  <img src="static/highlighting_preview.png" alt="Syntax Highlighting Preview" width="600">
+    <img src="static/highlighting_preview.png" alt="Syntax Highlighting Preview" width="600">
 </p>
 
 ## Issues
