@@ -38,7 +38,7 @@ To contribute to the development of this extension:
 3. Run the extension in development mode by pressing `F5`.
 
 <p align="center">
-  <img src="static/highlighting_preview.png" alt="Syntax Highlighting Preview" width="400">
+  <img src="static/highlighting_preview.png" alt="Syntax Highlighting Preview" width="600">
 </p>
 
 ## Issues
