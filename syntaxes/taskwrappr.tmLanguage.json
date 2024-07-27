@@ -4,7 +4,7 @@
     "scopeName": "source.taskwrappr",
     "patterns": [
         {
-            "match": "\\b(print|if|else)\\b",
+            "match": "\\b(print|if|elseIf|else|for|return|action|delete)\\b",
             "name": "keyword.control.taskwrappr"
         },
         {
@@ -12,8 +12,12 @@
             "name": "keyword.operator.taskwrappr"
         },
         {
-            "match": "\\b(true|false)\\b",
+            "match": "\\b(true|false|nil)\\b",
             "name": "constant.language.boolean.taskwrappr"
+        },
+        {
+            "match": "__[A-Z_]+__",
+            "name": "constant.other.taskwrappr"
         },
         {
             "match": "\"(?:[^\"\\\\]|\\\\.)*\"",
