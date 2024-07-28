@@ -2,7 +2,7 @@
   "name": "taskwrappr",
   "displayName": "VSCode-Taskwrappr",
   "description": "VSCode-Taskwrappr is a versatile Taskwrapper scripting language support extension for Visual Studio Code. It provides syntax highlighting and code snippets for the language.",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "publisher": "smuggr",
   "repository": {
     "type": "git",

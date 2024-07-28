@@ -4,11 +4,11 @@
     "scopeName": "source.taskwrappr",
     "patterns": [
         {
-            "match": "\\b(print|if|elseIf|else|for|return|action|delete)\\b",
+            "match": "\\b(print|type|if|elseIf|else|for|return|action|delete)\\b",
             "name": "keyword.control.taskwrappr"
         },
         {
-            "match": "\\b(not|and|or|xor|nand)\\b",
+            "match": "\\b(==|!=|<=|>=|<|>|&&|\\|\\||!|\\^)\\b",
             "name": "keyword.operator.taskwrappr"
         },
         {
